@@ -1,0 +1,78 @@
+/* Main Style */
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url(../img/background.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+.bg .container {
+    background-color: rgba(42, 38, 61, 0.82);
+    height: 100%;
+    text-align: center;
+}
+
+.bg .container img {
+    margin-top: 44px;
+    margin-bottom: 14px;
+}
+
+.bg .container .header {
+    margin-bottom: 14px;
+}
+
+.bg .container .header h1 {
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 84px;
+    color: white;
+}
+
+.bg .container .header h1 span {
+    color: #FCB371;
+    font-family: 'Pacifico';
+}
+
+.bg .container span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-bottom: 59px;
+    display: block;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.bg .container a {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Pacifico';
+    color: #FCB371;
+    border: 2px solid #fcb371;
+    padding: 12px 50px;
+    border-radius: 6px;
+    transition: 300ms;
+}
+
+.bg .container a:nth-last-child(1){
+    margin-left: 28px;
+}
+
+.bg .container a:hover {
+    background-color: #FCB371;
+    color: white;
+}
+
+
+
+
+
+
